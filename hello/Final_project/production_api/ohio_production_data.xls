@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>404 Page Not Found</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap" rel="stylesheet"
+		type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/errorpages/css/odnr-404.css">
+</head>
+
+<body>
+	<!--Piwik Start-->
+	<script type="text/javascript">
+		(function(window, document, dataLayerName, id) {
+		window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+		function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+		var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+		var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+		tags.async=!0,tags.src="//analytics.dx.ohio.gov/containers/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+		!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+		})(window, document, 'dataLayer', 'fa9b1788-7206-4e31-8075-8aa35a037bb6');
+	</script>
+	<noscript>
+		<iframe src="//analytics.dx.ohio.gov/containers/fa9b1788-7206-4e31-8075-8aa35a037bb6/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!--Piwik END-->
+	<main>
+		<div id="page-not-found--main">
+			<div id="page-not-found--left-image">
+				<img src="/errorpages/images/404tree-left.png" alt="tree with large bushy leaves">
+			</div>
+			<section id="page-not-found--section">
+				<div id="page-not-found--naturalist">
+					<img id="page-not-found--naturalist-image" src="/errorpages/images/naturalist.gif"
+						alt="Smiling woman wearing a backpack and searcher with binoculars">
+				</div>
+				<h1 id="page-not-found--header">Page Not Found</h1>
+				<h2 id="page-not-found--sub-header">
+					<div>We apologize, the page you have requested</div>
+					<div>cannot be found.</div>
+				</h2>
+				<article id="page-not-found--article">
+					<div>The URL may be misspelled or the page you're looking for may no longer be available.</div>
+					<div>Click the button below to return to the Ohio Department of Natural Resource's homepage.</div>
+					<div id="return-to-dnr--button-container">
+						<a id="return-to-dnr--link" href="http://ohiodnr.gov/" title="Return to ohiodnr.gov">
+							<button id="return-to-dnr--button">Return to ohiodnr.gov</button>
+						</a>
+					</div>
+				</article>
+			</section>
+			<div id="page-not-found--right-image">
+				<img src="/errorpages/images/404tree-right.png" alt="tree with large bushy leaves">
+			</div>
+		</div>
+		<div id="page-not-found--mobile">
+			<div id="page-not-found-mobile--grid">
+				<div id="page-not-found-mobile--images">
+					<div id="page-not-found--tree--mobile-wrapper">
+						<img id="page-not-found--left-image--mobile" src="/errorpages/images/404tree-left.png"
+							alt="tree with large bushy leaves">
+					</div>
+					<div id="page-not-found--naturalist-image--mobile-wrapper">
+						<img id="page-not-found--naturalist-image--mobile" src="/errorpages/images/naturalist.gif"
+							alt="Smiling woman wearing a backpack and searcher with binoculars">
+					</div>
+				</div>
+			</div>
+			<div id="page-not-found--mobile--text">
+				<h1 id="page-not-found--header">Page Not Found</h1>
+				<h2 id="page-not-found--sub-header">
+					<div>We apologize, the page you have requested
+						cannot be found.</div>
+				</h2>
+				<article id="page-not-found--article">
+					<div>The URL may be misspelled or the page you're looking for may no longer be available.
+						Click the button bellow to return to the Ohio Department of Natural Resource's homepage.</div>
+					<div id="return-to-dnr--button-container">
+						<a href="http://ohiodnr.gov/" title="Return to ohiodnr.gov">
+							<button id="return-to-dnr--button">Return to ohiodnr.gov</button>
+						</a>
+					</div>
+				</article>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
